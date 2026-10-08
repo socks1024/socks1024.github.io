@@ -1,7 +1,8 @@
 {
   "useMarkdownLinks": true,
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "absolute",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "assets"
+  "attachmentFolderPath": "assets",
+  "spellcheck": false
 }

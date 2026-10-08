@@ -1,8 +1,10 @@
 ---
 title: 你好 Github Pages
 date: 2026-10-08 19:41:00 +0800
-categories: []
-tags: []
+categories:
+  - 其他开发
+tags:
+  - 其他开发
 ---
 
 哇这么好的东西竟然免费，感谢巨硬。
@@ -46,7 +48,7 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它将原始�
 └── index.html
 ```
 
-其中 `_posts` 文件夹用于存放要发布 & 展示出来的博客文章，而 `_drafts` 文件夹用于存放草稿。
+其中 `_posts` 文件夹用于存放要发布、展示的博客文章，而 `_drafts` 文件夹用于存放草稿。
 
 ### 主题
 
@@ -69,5 +71,3 @@ Jekyll 通过渲染 Markdown 等基础的标记语言来显示页面，所以也
 ### Templater
 
 为了简化创建符合 Jekyll 规范的文档的步骤，当前工作区使用了 Templater 插件来对 `_posts` 下新建的 Markdown 文件进行初始化，将文件重命名为“日期 + 文件名”的格式，并自动添加基础的 frontmatter。
-
-针对于每个本地工作区，都需要在设置中手动开启 Templater 的 **Trigger Templater on new file creation** 功能。
