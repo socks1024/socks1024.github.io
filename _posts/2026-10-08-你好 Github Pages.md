@@ -68,7 +68,7 @@ Jekyll 通过渲染 Markdown 等基础的标记语言来显示页面，所以也
 
 下面是一个插入 HTML 语法的例子，我插入了一个简单的网易云外链。
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="https://music.163.com/outchain/player?type=2&id=4919533&auto=1&height=66"></iframe>
+<iframe markdown="0" frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="https://music.163.com/outchain/player?type=2&amp;id=4919533&amp;auto=1&amp;height=66"></iframe>
 
 这里本来是一个 Godot 程序的，不过实际效果并不是很好。
 
