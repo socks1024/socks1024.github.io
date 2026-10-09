@@ -2,7 +2,7 @@
 title: 你好 Github Pages
 date: 2026-10-08 19:41:00 +0800
 categories:
-  - 其他开发
+  - 程序开发
 tags:
 ---
 哇这么好的东西竟然免费，感谢巨硬。
@@ -58,14 +58,16 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它将原始�
 
 Jekyll 通过渲染 Markdown 等基础的标记语言来显示页面，所以也兼容 Markdown 中的 HTML 语法。
 
-下面是一个插入 HTML 语法的例子，我插入了一个简单的 Godot 游戏模板程序。（在 Obsidian 中，这里会显示为一段诡异的空白。你还是太弱小了啊 Obsidian）
+下面是一个插入 HTML 语法的例子，我插入了一个简单的 Godot 程序。
 
 <iframe src="/assets/games/GodotProjectTemplate-web-v0.1.0/index.html" width="100%" height="600" frameborder="0"></iframe>
 
 ## Markdown
 
-这个项目使用 Obsidian 作为 Markdown 编辑工具，并引入了一些插件来辅助文字工作。
+这个网站在本地使用 Obsidian 作为 Markdown 编辑工具，并引入了一些插件来辅助文字工作。
+
+由于 Obsidian 无法正确的渲染一部分 HTML 功能（这不是废话吗， Obsidian 又不是浏览器），Obsidian 自身的排版、主题等功能也无法套用到 Jekyll 中，所以文章的最终展示形式仍需以实际网页为准。
 
 ### Templater
 
-为了简化创建符合 Jekyll 规范的文档的步骤，当前工作区使用了 Templater 插件来对 `_posts` 下新建的 Markdown 文件进行初始化，将文件重命名为“日期 + 文件名”的格式，并自动添加基础的 frontmatter。
+为了简化创建符合 Jekyll 规范的文档的步骤，本地工作区使用了 Templater 插件来对 `_posts` 下新建的 Markdown 文件进行初始化，将文件重命名为“日期 + 文件名”的格式，并自动添加基础的 frontmatter。真不错啊（）
