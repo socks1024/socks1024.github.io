@@ -68,7 +68,7 @@ Jekyll 通过渲染 Markdown 等基础的标记语言来显示页面，所以也
 
 下面是一个插入 HTML 语法的例子，我插入了一个简单的 Godot 程序。
 
-<iframe src="/assets/games/GodotProjectTemplate-web-v0.1.0/index.html" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="/assets/games/GodotProjectTemplate-web-v0.1.0/index.html" width="100%" height="600" allow="fullscreen" frameborder="0"></iframe>
 
 非文本格式的文件也可以作为附件跟随网站一起发布，Jekyll 完全兼容，唯一问题是 Github 的容量限制。
 
