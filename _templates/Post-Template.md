@@ -5,4 +5,5 @@ title: <% noteTitle %>
 date: <% tp.date.now("YYYY-MM-DD HH:mm:ss +0800") %>
 categories: []
 tags: []
+mermaid: true
 ---
