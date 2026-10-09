@@ -66,9 +66,11 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它将原始�
 
 Jekyll 通过渲染 Markdown 等基础的标记语言来显示页面，所以也兼容 Markdown 中的 HTML 语法。
 
-下面是一个插入 HTML 语法的例子，我插入了一个简单的 Godot 程序。
+下面是一个插入 HTML 语法的例子，我插入了一个简单的网易云外链。
 
-<iframe src="/assets/games/GodotProjectTemplate-web-v0.1.0/index.html" width="100%" height="600" allow="fullscreen" frameborder="0"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="?https://music.163.com/outchain/player?type=2&id=4919533&auto=1&height=66"></iframe>
+
+这里本来是一个 Godot 程序的，不过实际效果并不是很好。
 
 非文本格式的文件也可以作为附件跟随网站一起发布，Jekyll 完全兼容，唯一问题是 Github 的容量限制。
 
